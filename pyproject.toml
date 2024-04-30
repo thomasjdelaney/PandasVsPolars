@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "PandasVsPolars"
+version = "0.1.0"
+description = "A project for comparing pandas polars"
+authors = ["Thomas Delaney <thomas.delaney@posteo.net>"]
+license = "GNU Licence, I suppose"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.*"
+black = "*"
+isort = "*"
+autoflake = "*"
+pandas = "*"
+polars = "*"
+numpy = "*"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+line_length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
