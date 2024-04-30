@@ -14,6 +14,8 @@ autoflake = "*"
 pandas = "*"
 polars = "*"
 numpy = "*"
+scikit-learn = "*"
+kaggle = "*"
 
 [tool.black]
 line-length = 120
